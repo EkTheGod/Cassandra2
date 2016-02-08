@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="toolkitver" content="1.0.9.6702" />
+<style>
+    .form{
+        length: 10px; ,
+        padding: 100px 100px 100px 100px;
+    }
+    table,fieldset{
+        margin-top: 24px; ,
+        padding: 10px 10px 10px 10px;
+    }
+    .button{
+        margin-top: 10px;
+    }
+</style>
+<title>Kvcache Pagination</title>
+<h1 align="center">CASSANDRA</h1>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+
+</head>
+
+<body>
+
+        <div class="form" id="insert" align="center">
+            <label>KeySpace:</label>
+            <input      type="text"     id="Keyspace"   name="Keyspace" />
+
+            <label>Table:</label>
+            <input      type="text"     id="Table"      name="Table"/>
+
+            <label>Rows:</label>
+            <input      type="text"     id="Rows"      name="Rows"/>
+            <button class="submitbtn" id="submitbtn" >Query</button>
+            <button class="button" id="clearbtn" onclick="clearall">Clear</button>
+        </div>
+
+    <table class="myTable" id="myTable" border="10" cellpadding="5" cellspacing="5" style="width:30%" align="center">
+        <thead>
+            <tr>
+                <th title="This is AppName">AppName</th>
+                <th title="This is Key">Key</th>
+                <th title="This is Value">Value</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>

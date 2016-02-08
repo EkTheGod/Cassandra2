@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<Head><font size="6">KV Cache</font>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script type="text/javascript">
+
+            $(document).ready(function(){
+                $.getJSON('data',function(result){
+                  var body ='<tr><td>AppName</td><td>Key</td><td>Value</td></tr>';
+                    $.each(result, function(key, val) {
+                        body += '<tr><td>' + val.appname +'</td><td>'+ val.key +'</td><td>'+ val.value +'</td></tr>';
+                    });
+                    $("#myTable").append(body);
+                });
+            });
+</script>
+
+</Head>
+<body>
+    <table id="myTable" border="1" style="width:30%">
+    </table>
+</body>
+</html>

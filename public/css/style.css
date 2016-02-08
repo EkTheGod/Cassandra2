@@ -1,0 +1,81 @@
+    body{
+        background-color: black;
+    }
+
+    div.pager span {
+        display: inline-block;
+        width: 1.8em;
+        height: 1.8em;
+        line-height: 1.8;
+        text-align: center;
+        cursor: pointer;
+        background: #000;
+        color: #fff;
+        margin-right: 0.5em;
+        margin-top: 1em;
+    }
+
+    div.pager span.active {
+        background: #006666;
+    }
+
+    .form {
+        length: 10px; ,
+        padding: 100px 100px 100px 100px;
+    }
+
+    table,fieldset{
+        margin-top: 24px; ,
+        padding: 10px 10px 10px 10px;
+    }
+
+    .button{
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    div.hidden{
+        padding-left: 35%;
+        align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: none;
+    }
+
+    div.an{
+        padding-left: 35%;
+        align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    ks, tb{
+        margin: 10px;
+        padding: 0;
+        width: 200px;
+    }
+
+    a.advance{
+
+        padding-top: 10px;
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    label.ks,label.tb,label.an{
+        color:white;
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 140px;
+        text-align: right;
+    }
+
+    input.ks,input.tb,input.an {
+        float: left;
+    }
+
+    button.an{
+        margin-left: 10px;
+        float: left;
+    }

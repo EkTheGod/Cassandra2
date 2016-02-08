@@ -1,0 +1,7 @@
+{
+  "name": "cassandra",
+  "displayName": "cassandra",
+  "version" : "1.0.0",
+  "description" : "cassandra NodeJs app",  
+  "defaultPlatform" : "NodeJs"
+}
